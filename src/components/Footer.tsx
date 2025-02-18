@@ -1,4 +1,7 @@
 import React from "react";
+import reactIcon from '../assets/react.svg'
+import vercelIcon from '../assets/vercel.svg'
+import tailwindIcon from '../assets/tailwindcss.svg'
 
 const Footer = () => {
   const socialLinks = [
@@ -70,19 +73,19 @@ const Footer = () => {
     {
       desc: "Feito com",
       name: "React",
-      icon: "../public/svg/react.svg",
+      icon: reactIcon,
       alt: "React Logo",
     },
     {
       desc: "Estilizado com",
       name: "TailwindCSS",
-      icon: "/public/svg/tailwindcss.svg",
+      icon: tailwindIcon,
       alt: "TailwindCSS Logo",
     },
     {
       desc: "Deploy em",
       name: "Vercel",
-      icon: "../svg/vercel.svg",
+      icon: vercelIcon,
       alt: "Vercel Logo",
     },
   ];
