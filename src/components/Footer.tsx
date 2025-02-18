@@ -70,7 +70,7 @@ const Footer = () => {
     {
       desc: "Feito com",
       name: "React",
-      icon: "/public/svg/react.svg",
+      icon: "../public/svg/react.svg",
       alt: "React Logo",
     },
     {
@@ -82,7 +82,7 @@ const Footer = () => {
     {
       desc: "Deploy em",
       name: "Vercel",
-      icon: "/svg/vercel.svg",
+      icon: "../svg/vercel.svg",
       alt: "Vercel Logo",
     },
   ];
