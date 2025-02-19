@@ -37,6 +37,21 @@ const navItems: NavItem[] = [
       </svg>
     ),
   },
+  {
+    label: "Artigos",
+    href: "#articles",
+    icon: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        width="24"
+        height="24"
+        fill="currentColor"
+      >
+        <path d="M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3ZM19 19H5V5H19V19ZM7 7H17V9H7V7ZM7 11H17V13H7V11ZM7 15H17V17H7V15Z" />
+      </svg>
+    ),
+  },
 ];
 
 export default function Navbar() {
@@ -78,7 +93,7 @@ export default function Navbar() {
 
   return (
     <div className="flex justify-center w-full">
-      <nav className="fixed flex left-0 right-0 z-[100] bg-[#1414149c] border border-1 border-[var(--white-icon-tr)] backdrop-blur-xl transition-all md:top-0 md:bottom-auto bottom-0 md:w-[16rem] rounded-t-2xl md:rounded-full md:mt-6 md:justify-self-center">
+      <nav className="fixed flex left-0 right-0 z-[100] bg-[#1414149c] border border-1 border-[var(--white-icon-tr)] backdrop-blur-xl transition-all md:top-0 md:bottom-auto bottom-0 md:w-[22rem] rounded-t-2xl md:rounded-full md:mt-6 md:justify-self-center">
         <div className="container mx-auto flex justify-center items-center p-2">
           <ul className="flex w-full justify-between md:space-x-6 md:justify-center md:gap-12 gap-6">
             {navItems.map((item) => (
